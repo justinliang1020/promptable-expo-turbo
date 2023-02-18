@@ -36,7 +36,7 @@ const getBaseUrl = () => {
    */
   const localhost = Constants.manifest?.debuggerHost?.split(":")[0];
   if (!localhost) {
-    // return "https://your-production-url.com";
+    return "https://irl-chatbot-nextjs-1zo1li4lg-justinliang1020.vercel.app/"; // TODO: remove
     throw new Error(
       "Failed to get localhost. Please point to your production server.",
     );
