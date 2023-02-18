@@ -16,12 +16,6 @@ model Post {
     content String
 }
 
-// model Chatbot {
-//     id String @id @default(cuid())
-//     name String
-//     conversation Message[]
-// }
-
 model Message {
     id String @id @default(cuid())
     createdAt DateTime @default(now())

@@ -1,3 +1,7 @@
+# todo
+
+create gpt response
+
 # create-t3-turbo
 
 <img width="1758" alt="turbo2" src="https://user-images.githubusercontent.com/51714798/213819392-33e50db9-3e38-4c51-9a22-03abe5e48f3d.png">
