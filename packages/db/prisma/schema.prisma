@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-    provider = "postgresql"
+    provider = "sqlite"
     url      = env("DATABASE_URL")
 }
 
@@ -14,6 +14,21 @@ model Post {
     id      String @id @default(cuid())
     title   String
     content String
+}
+
+// model Chatbot {
+//     id String @id @default(cuid())
+//     name String
+//     conversation Message[]
+// }
+
+model Message {
+    id String @id @default(cuid())
+    createdAt DateTime @default(now())
+    content String
+    fromUser Boolean
+    // conversationOwner Chatbot @relation(fields: [chatbotId], references: [id])
+    // chatbotId String
 }
 
 // NextAuth.js Models

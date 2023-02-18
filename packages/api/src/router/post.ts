@@ -15,6 +15,7 @@ export const postRouter = createTRPCRouter({
       return ctx.prisma.post.create({ data: input });
     }),
   delete: publicProcedure.input(z.string()).mutation(({ ctx, input }) => {
+    ctx.prisma.post;
     return ctx.prisma.post.delete({ where: { id: input } });
   }),
 });
