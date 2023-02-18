@@ -29,12 +29,5 @@
       "cache": false
     }
   },
-  "globalEnv": [
-    "DATABASE_URL",
-    "NEXTAUTH_SECRET",
-    "NEXTAUTH_URL",
-    "NODE_ENV",
-    "DISCORD_CLIENT_ID",
-    "DISCORD_CLIENT_SECRET"
-  ]
+  "globalEnv": ["DATABASE_URL", "NODE_ENV", "OPENAI_API_KEY"]
 }
