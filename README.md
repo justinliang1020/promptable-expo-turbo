@@ -1,6 +1,40 @@
-# todo
+# promptable-expo-turbo
 
-create gpt response
+![image](https://user-images.githubusercontent.com/54543035/220197715-779bd350-e7b5-4d45-a631-5ec4219d1418.png)
+
+
+## About
+
+Create a AI-powered turbo-repo using the power of Promptable.
+
+It uses [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) as the base and provides a chatbot example powered by [Promptable](https://github.com/cfortuner/promptable).
+
+## Quick Start
+
+To get it running, follow the steps below:
+
+### Setup dependencies
+
+```diff
+# Install dependencies
+pnpm i
+
+# Configure environment variables.
+# There is an `.env.example` in the root directory you can use for reference
+cp .env.example .env
+
+# Push the Prisma schema to your database
+pnpm db:push
+```
+
+Next, add your OpenAI API key to .env in OPENAI_API_KEY.
+
+To run in dev, make sure you have xcode/android studio installed and run:
+```
+pnpm dev
+```
+
+# Detailed Instructions Found Below
 
 # create-t3-turbo
 
