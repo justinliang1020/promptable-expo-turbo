@@ -1,8 +1,8 @@
 import { ConfigContext, ExpoConfig } from "@expo/config";
 
 const defineConfig = (_ctx: ConfigContext): ExpoConfig => ({
-  name: "expo",
-  slug: "expo",
+  name: "promptable-react-native",
+  slug: "promptable-react-native",
   scheme: "expo",
   version: "1.0.0",
   orientation: "portrait",
@@ -29,7 +29,7 @@ const defineConfig = (_ctx: ConfigContext): ExpoConfig => ({
   },
   extra: {
     eas: {
-      projectId: "your-project-id",
+      projectId: "15dadfa1-690e-4e72-8c11-8d19965492ac",
     },
   },
   plugins: ["./expo-plugins/with-modify-gradle.js"],
