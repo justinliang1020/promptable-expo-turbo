@@ -1,7 +1,6 @@
 # promptable-expo-turbo
 
-![image](https://user-images.githubusercontent.com/54543035/220197715-779bd350-e7b5-4d45-a631-5ec4219d1418.png)
-
+![My project](https://user-images.githubusercontent.com/54543035/220198787-09216664-d088-473d-b103-86c2d66489d9.png)
 
 ## About
 
