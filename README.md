@@ -4,9 +4,9 @@
 
 ## About
 
-Create a AI-powered turbo-repo using the power of Promptable.
+Create an AI-powered turbo-repo using the power of Promptable
 
-It uses [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) as the base and provides a chatbot example powered by [Promptable](https://github.com/cfortuner/promptable).
+It uses [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo) as the base and provides a chatbot example powered by [Promptable](https://github.com/cfortuner/promptable)
 
 ## Quick Start
 
